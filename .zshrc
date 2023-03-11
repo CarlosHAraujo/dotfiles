@@ -23,10 +23,6 @@ ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 
 . "$HOME/.asdf/asdf.sh"
 
-# configure gpg tty
-export GPG_TTY=$(tty)
-
 # add dotnet environment variables
 export DOTNET_ROOT=/usr/bin/dotnet
 export PATH=$DOTNET_ROOT:$DOTNET_ROOT/tools:$PATH
-
